@@ -12,3 +12,6 @@
 
 -- Step 5: Mart - Create priority mart
 .read create_priority_mart.sql
+
+-- Step 6: Mart - Update priority mart
+.read update_priority_mart.sql

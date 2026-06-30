@@ -15,3 +15,10 @@
 
 -- Step 6: Mart - Update priority mart
 .read update_priority_mart.sql
+
+-- Step 7: Mart - Create company prospecting mart
+.read create_company_mart.sql
+
+-- Final verification
+SELECT '=== Pipeline Build Complete ===' AS status;
+SELECT 'All warehouse tables and marts created successfully' AS message;

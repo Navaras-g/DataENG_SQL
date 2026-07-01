@@ -1,3 +1,7 @@
+-- Set up initial configurations
+PRAGMA enable_progress_bar;
+PRAGMA enable_checkpoint_on_shutdown;
+
 -- Drop existing tables if they exist (for idempotency)
 DROP TABLE IF EXISTS skills_job_dim;
 DROP TABLE IF EXISTS job_postings_fact;
